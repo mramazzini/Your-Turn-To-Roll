@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="VcsDirectoryMappings">
+    <mapping directory="" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../COSC-3380-HW4" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../atznews" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../brawl-stars-prestige-tracker" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../next-example" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../software-development" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../world" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../xphub" vcs="Git" />
+  </component>
+</project>

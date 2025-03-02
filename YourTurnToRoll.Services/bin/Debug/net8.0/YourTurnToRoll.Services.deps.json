@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "YourTurnToRoll.Services/1.0.0": {
+        "dependencies": {
+          "YourTurnToRoll.Core": "1.0.0"
+        },
+        "runtime": {
+          "YourTurnToRoll.Services.dll": {}
+        }
+      },
+      "YourTurnToRoll.Core/1.0.0": {
+        "runtime": {
+          "YourTurnToRoll.Core.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "YourTurnToRoll.Services/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "YourTurnToRoll.Core/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

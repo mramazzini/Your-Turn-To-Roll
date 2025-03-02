@@ -1,8 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "WPDcX2xwEs5Dk72es0PD+SzRaFD5prMS9fVCO0pPwHeSBtdQovXC8/xN+fiH51ImLqusf1giDSpebGBjbZdOcw==",
+  "dgSpecHash": "dYU4RWDQ/ic=",
   "success": true,
-  "projectFilePath": "/home/max/repo/world/yourturntoroll/YourTurnToRoll.CLI/YourTurnToRoll.CLI.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "/home/max/repo/yourturntoroll/YourTurnToRoll.CLI/YourTurnToRoll.CLI.csproj",
+  "expectedPackageFiles": [
+    "/home/max/.nuget/packages/microsoft.extensions.dependencyinjection/10.0.0-preview.1.25080.5/microsoft.extensions.dependencyinjection.10.0.0-preview.1.25080.5.nupkg.sha512",
+    "/home/max/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/10.0.0-preview.1.25080.5/microsoft.extensions.dependencyinjection.abstractions.10.0.0-preview.1.25080.5.nupkg.sha512"
+  ],
   "logs": []
 }

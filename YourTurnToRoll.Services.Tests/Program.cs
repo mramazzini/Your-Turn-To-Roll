@@ -1,0 +1,7 @@
+using YourTurnToRoll.Services.Tests;
+
+var builder = Host.CreateApplicationBuilder(args);
+builder.Services.AddHostedService<Worker>();
+
+var host = builder.Build();
+host.Run();

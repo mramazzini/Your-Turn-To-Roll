@@ -1,0 +1,16 @@
+/home/max/repo/yourturntoroll/YourTurnToRoll.Services/bin/Debug/net8.0/YourTurnToRoll.Services.deps.json
+/home/max/repo/yourturntoroll/YourTurnToRoll.Services/bin/Debug/net8.0/YourTurnToRoll.Services.dll
+/home/max/repo/yourturntoroll/YourTurnToRoll.Services/bin/Debug/net8.0/YourTurnToRoll.Services.pdb
+/home/max/repo/yourturntoroll/YourTurnToRoll.Services/bin/Debug/net8.0/YourTurnToRoll.Core.dll
+/home/max/repo/yourturntoroll/YourTurnToRoll.Services/bin/Debug/net8.0/YourTurnToRoll.Core.pdb
+/home/max/repo/yourturntoroll/YourTurnToRoll.Services/obj/Debug/net8.0/YourTurnToRoll.Services.csproj.AssemblyReference.cache
+/home/max/repo/yourturntoroll/YourTurnToRoll.Services/obj/Debug/net8.0/YourTurnToRoll.Services.GeneratedMSBuildEditorConfig.editorconfig
+/home/max/repo/yourturntoroll/YourTurnToRoll.Services/obj/Debug/net8.0/YourTurnToRoll.Services.AssemblyInfoInputs.cache
+/home/max/repo/yourturntoroll/YourTurnToRoll.Services/obj/Debug/net8.0/YourTurnToRoll.Services.AssemblyInfo.cs
+/home/max/repo/yourturntoroll/YourTurnToRoll.Services/obj/Debug/net8.0/YourTurnToRoll.Services.csproj.CoreCompileInputs.cache
+/home/max/repo/yourturntoroll/YourTurnToRoll.Services/obj/Debug/net8.0/YourTurnToRoll.Services.sourcelink.json
+/home/max/repo/yourturntoroll/YourTurnToRoll.Services/obj/Debug/net8.0/YourTurnToRoll.Services.csproj.CopyComplete
+/home/max/repo/yourturntoroll/YourTurnToRoll.Services/obj/Debug/net8.0/YourTurnToRoll.Services.dll
+/home/max/repo/yourturntoroll/YourTurnToRoll.Services/obj/Debug/net8.0/refint/YourTurnToRoll.Services.dll
+/home/max/repo/yourturntoroll/YourTurnToRoll.Services/obj/Debug/net8.0/YourTurnToRoll.Services.pdb
+/home/max/repo/yourturntoroll/YourTurnToRoll.Services/obj/Debug/net8.0/ref/YourTurnToRoll.Services.dll

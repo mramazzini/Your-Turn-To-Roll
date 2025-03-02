@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/home/max/repo/world/yourturntoroll/YourTurnToRoll.Core/YourTurnToRoll.Core.csproj": {}
+    "/home/max/repo/yourturntoroll/YourTurnToRoll.Core/YourTurnToRoll.Core.csproj": {}
   },
   "projects": {
-    "/home/max/repo/world/yourturntoroll/YourTurnToRoll.Core/YourTurnToRoll.Core.csproj": {
+    "/home/max/repo/yourturntoroll/YourTurnToRoll.Core/YourTurnToRoll.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/max/repo/world/yourturntoroll/YourTurnToRoll.Core/YourTurnToRoll.Core.csproj",
+        "projectUniqueName": "/home/max/repo/yourturntoroll/YourTurnToRoll.Core/YourTurnToRoll.Core.csproj",
         "projectName": "YourTurnToRoll.Core",
-        "projectPath": "/home/max/repo/world/yourturntoroll/YourTurnToRoll.Core/YourTurnToRoll.Core.csproj",
+        "projectPath": "/home/max/repo/yourturntoroll/YourTurnToRoll.Core/YourTurnToRoll.Core.csproj",
         "packagesPath": "/home/max/.nuget/packages/",
-        "outputPath": "/home/max/repo/world/yourturntoroll/YourTurnToRoll.Core/obj/",
+        "outputPath": "/home/max/repo/yourturntoroll/YourTurnToRoll.Core/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/max/.nuget/NuGet/NuGet.Config"
