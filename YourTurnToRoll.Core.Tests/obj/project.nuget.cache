@@ -1,11 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "b2VPzZn1G5A=",
+  "dgSpecHash": "yMgf5P9WPcM=",
   "success": true,
   "projectFilePath": "/home/max/repo/yourturntoroll/YourTurnToRoll.Core.Tests/YourTurnToRoll.Core.Tests.csproj",
   "expectedPackageFiles": [
     "/home/max/.nuget/packages/coverlet.collector/6.0.0/coverlet.collector.6.0.0.nupkg.sha512",
     "/home/max/.nuget/packages/microsoft.codecoverage/17.6.0/microsoft.codecoverage.17.6.0.nupkg.sha512",
+    "/home/max/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/8.0.2/microsoft.extensions.dependencyinjection.abstractions.8.0.2.nupkg.sha512",
     "/home/max/.nuget/packages/microsoft.net.test.sdk/17.6.0/microsoft.net.test.sdk.17.6.0.nupkg.sha512",
     "/home/max/.nuget/packages/microsoft.netcore.platforms/1.1.0/microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "/home/max/.nuget/packages/microsoft.testplatform.objectmodel/17.6.0/microsoft.testplatform.objectmodel.17.6.0.nupkg.sha512",

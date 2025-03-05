@@ -1,20 +1,30 @@
-﻿using System.Security.Authentication.ExtendedProtection;
-using YourTurnToRoll.Core;
-using YourTurnToRoll.Services;
-using Microsoft.Extensions.DependencyInjection;
+﻿using Microsoft.Extensions.DependencyInjection;
+using YourTurnToRoll.Core.Extensions;
+using YourTurnToRoll.Core.Factories;
+using YourTurnToRoll.Core.Interfaces.Character;
+using YourTurnToRoll.Core.Interfaces.Game;
 using YourTurnToRoll.Core.Services;
-using IDiceService = YourTurnToRoll.Core.IDiceService;
+using YourTurnToRoll.Services;
 
-class Program
+namespace YourTurnToRoll.CLI;
+
+internal static class Program
 {
-    static void Main()
+    private static void Main()
     {
         // Setup Dependency Injection
-        var serviceProvider = new ServiceCollection()
-            .AddSingleton<YourTurnToRoll.Core.Services.IDiceService, DiceService>()
-            .BuildServiceProvider();
+        var services = new ServiceCollection()
+            .AddSingleton<IDiceService, DiceService>()
+            .AddSingleton<ICharacterService, CharacterService>()
+            .AddSingleton<IGameStateManager, GameStateManager>();
 
-        Console.WriteLine("Enter character name:");
-        string name = Console.ReadLine() ?? "Hero";
+        services.RegisterInterfacesWithDi(typeof(IClass), typeof(IBackground), typeof(ISpecies), typeof(ICampaign));
+
+        var serviceProvider = services.BuildServiceProvider();
+        var characterService = serviceProvider.GetService<ICharacterService>();
+        var gameStateManager = serviceProvider.GetService<IGameStateManager>();
+        FactoryInspector.PrintRegisteredFactories(serviceProvider);
+
+        gameStateManager.Initialize();
     }
 }

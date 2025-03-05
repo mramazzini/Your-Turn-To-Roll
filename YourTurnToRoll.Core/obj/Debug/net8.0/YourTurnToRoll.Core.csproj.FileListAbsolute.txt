@@ -22,3 +22,4 @@
 /home/max/repo/yourturntoroll/YourTurnToRoll.Core/obj/Debug/net8.0/refint/YourTurnToRoll.Core.dll
 /home/max/repo/yourturntoroll/YourTurnToRoll.Core/obj/Debug/net8.0/YourTurnToRoll.Core.pdb
 /home/max/repo/yourturntoroll/YourTurnToRoll.Core/obj/Debug/net8.0/ref/YourTurnToRoll.Core.dll
+/home/max/repo/yourturntoroll/YourTurnToRoll.Core/obj/Debug/net8.0/YourTurnToRoll.Core.csproj.AssemblyReference.cache

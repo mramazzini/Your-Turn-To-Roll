@@ -36,6 +36,9 @@
         }
       },
       "YourTurnToRoll.Core/1.0.0": {
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "10.0.0-preview.1.25080.5"
+        },
         "runtime": {
           "YourTurnToRoll.Core.dll": {}
         }

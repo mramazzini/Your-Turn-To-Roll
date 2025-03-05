@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("YourTurnToRoll.Services.Tests")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7120d9a7aac4a0e246c01349645d3c42146cde9c")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5bbc2b2385331119172631040887c2953586c59d")]
 [assembly: System.Reflection.AssemblyProductAttribute("YourTurnToRoll.Services.Tests")]
 [assembly: System.Reflection.AssemblyTitleAttribute("YourTurnToRoll.Services.Tests")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
