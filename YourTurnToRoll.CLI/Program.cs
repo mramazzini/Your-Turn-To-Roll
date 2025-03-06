@@ -1,8 +1,7 @@
 ﻿using Microsoft.Extensions.DependencyInjection;
 using YourTurnToRoll.Core.Extensions;
 using YourTurnToRoll.Core.Factories;
-using YourTurnToRoll.Core.Interfaces.Character;
-using YourTurnToRoll.Core.Interfaces.Game;
+using YourTurnToRoll.Core.Interfaces.EnumType;
 using YourTurnToRoll.Core.Services;
 using YourTurnToRoll.Services;
 
@@ -18,7 +17,8 @@ internal static class Program
             .AddSingleton<ICharacterService, CharacterService>()
             .AddSingleton<IGameStateManager, GameStateManager>();
 
-        services.RegisterInterfacesWithDi(typeof(IClass), typeof(IBackground), typeof(ISpecies), typeof(ICampaign));
+        services.RegisterInterfacesWithDi(typeof(IClass), typeof(IBackground), typeof(ISpecies), typeof(ICampaign),
+            typeof(IDiceSet));
 
         var serviceProvider = services.BuildServiceProvider();
         var characterService = serviceProvider.GetService<ICharacterService>();

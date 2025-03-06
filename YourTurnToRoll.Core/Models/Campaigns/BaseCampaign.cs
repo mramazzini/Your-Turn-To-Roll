@@ -1,5 +1,5 @@
 using YourTurnToRoll.Core.Enums;
-using YourTurnToRoll.Core.Interfaces.Game;
+using YourTurnToRoll.Core.Interfaces.EnumType;
 
 namespace YourTurnToRoll.Core.Models.Campaigns;
 

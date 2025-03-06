@@ -1,4 +1,5 @@
 using YourTurnToRoll.Core.Interfaces.Character;
+using YourTurnToRoll.Core.Interfaces.EnumType;
 using YourTurnToRoll.Core.Interfaces.Game;
 
 namespace YourTurnToRoll.Core.Models.GameState;

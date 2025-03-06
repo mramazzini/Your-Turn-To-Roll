@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("YourTurnToRoll.Core")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5bbc2b2385331119172631040887c2953586c59d")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+bbb658b339572ae68b5e13a70157efbac58d80c0")]
 [assembly: System.Reflection.AssemblyProductAttribute("YourTurnToRoll.Core")]
 [assembly: System.Reflection.AssemblyTitleAttribute("YourTurnToRoll.Core")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

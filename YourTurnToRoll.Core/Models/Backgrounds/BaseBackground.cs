@@ -1,6 +1,6 @@
 using YourTurnToRoll.Core.Enums;
 using YourTurnToRoll.Core.Interfaces;
-using YourTurnToRoll.Core.Interfaces.Character;
+using YourTurnToRoll.Core.Interfaces.EnumType;
 
 namespace YourTurnToRoll.Core.Models.Backgrounds;
 

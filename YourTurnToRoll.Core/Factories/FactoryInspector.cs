@@ -1,6 +1,5 @@
 using YourTurnToRoll.Core.Enums;
-using YourTurnToRoll.Core.Interfaces.Character;
-using YourTurnToRoll.Core.Interfaces.Game;
+using YourTurnToRoll.Core.Interfaces.EnumType;
 using YourTurnToRoll.Core.Services;
 
 namespace YourTurnToRoll.Core.Factories;
@@ -16,7 +15,8 @@ public static class FactoryInspector
             typeof(IFactory<ClassType, IClass>),
             typeof(IFactory<BackgroundType, IBackground>),
             typeof(IFactory<SpeciesType, ISpecies>),
-            typeof(IFactory<CampaignType, ICampaign>)
+            typeof(IFactory<CampaignType, ICampaign>),
+            typeof(IFactory<DiceSetType, IDiceSet>)
         };
 
         foreach (var factoryType in factoryTypes)

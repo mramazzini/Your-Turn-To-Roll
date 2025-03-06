@@ -1,28 +1,22 @@
 using YourTurnToRoll.Core.Enums;
 using YourTurnToRoll.Core.Interfaces.Character;
+using YourTurnToRoll.Core.Interfaces.EnumType;
 using YourTurnToRoll.Core.Models;
 using YourTurnToRoll.Core.Services;
 
 namespace YourTurnToRoll.Services;
 
-public class CharacterService : ICharacterService
+public class CharacterService(IDiceService diceService) : ICharacterService
 {
-    private readonly IDiceService _diceService;
-
-    public CharacterService(IDiceService diceService)
-    {
-        _diceService = diceService;
-    }
-
     public int RollAbilityScore(ICharacter character, Ability ability)
     {
-        var roll = _diceService.Roll(20);
+        var roll = diceService.Roll(20);
         return roll + character.GetAbilityScore(ability);
     }
 
     public int RollSkillScore(ICharacter character, Skill skill)
     {
-        var roll = _diceService.Roll(20);
+        var roll = diceService.Roll(20);
         return roll + character.GetSkillScore(skill);
     }
 

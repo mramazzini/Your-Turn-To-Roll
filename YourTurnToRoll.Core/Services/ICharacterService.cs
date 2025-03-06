@@ -1,5 +1,6 @@
 using YourTurnToRoll.Core.Enums;
 using YourTurnToRoll.Core.Interfaces.Character;
+using YourTurnToRoll.Core.Interfaces.EnumType;
 
 namespace YourTurnToRoll.Core.Services;
 

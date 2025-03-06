@@ -1,7 +1,7 @@
 using YourTurnToRoll.Core.Attributes;
 using YourTurnToRoll.Core.Enums;
 
-namespace YourTurnToRoll.Core.Interfaces.Character;
+namespace YourTurnToRoll.Core.Interfaces.EnumType;
 
 [EnumType(typeof(ClassType))]
 public interface IClass
