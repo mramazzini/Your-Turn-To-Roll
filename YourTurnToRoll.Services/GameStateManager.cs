@@ -1,12 +1,15 @@
 using YourTurnToRoll.Core.Enums;
 using YourTurnToRoll.Core.Interfaces.Character;
+using YourTurnToRoll.Core.Interfaces.EnumType;
 using YourTurnToRoll.Core.Interfaces.Game;
 using YourTurnToRoll.Core.Models.GameState;
 using YourTurnToRoll.Core.Services;
 
 namespace YourTurnToRoll.Services;
 
-public class GameStateManager : IGameStateManager
+public class GameStateManager(
+    IFactory<CampaignType, ICampaign> campaignFactory,
+    IFactory<DiceSetType, IDiceSet> dicesetFactory) : IGameStateManager
 {
     public IGameState State { get; set; } = null!;
 
@@ -21,25 +24,24 @@ public class GameStateManager : IGameStateManager
         State.Party.Add(character);
     }
 
-    public void BeginCampaign(CampaignType campaignType)
+    public void BeginCampaign(CampaignType campaignType, string seed)
     {
-        //Generate campaign seed
-        //Store in game state
+        var campaign = campaignFactory.GetInstance(campaignType);
+        campaign.Seed = seed;
+        State.Campaign = campaign;
     }
 
-    public IEncounter GenerateEncounter()
-    {
-        throw new NotImplementedException();
-    }
 
     public void BeginEncounter(IEncounter encounter)
     {
-        throw new NotImplementedException();
+        var e = State.Campaign?.GenerateEncounter();
+        State.CurrentEncounter = e;
     }
 
     public void SelectDiceSet(DiceSetType diceSetType)
     {
-        throw new NotImplementedException();
+        var dice = dicesetFactory.GetInstance(diceSetType);
+        State.DiceSet = dice;
     }
 
     public List<IEncounterPreview> GenerateEncounterPreviews()

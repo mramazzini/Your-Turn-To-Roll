@@ -1,7 +1,7 @@
 using YourTurnToRoll.Core.Enums;
 using YourTurnToRoll.Core.Interfaces.Character;
 using YourTurnToRoll.Core.Interfaces.EnumType;
-using YourTurnToRoll.Core.Services;
+using YourTurnToRoll.Core.Services.Mappers;
 
 namespace YourTurnToRoll.Core.Models;
 

@@ -11,8 +11,7 @@ public interface IGameStateManager
 
     public void AddToParty(ICharacter character);
 
-    public void BeginCampaign(CampaignType campaignType);
-    public IEncounter GenerateEncounter();
+    public void BeginCampaign(CampaignType campaignType, string Seed);
     public void BeginEncounter(IEncounter encounter);
     public void SelectDiceSet(DiceSetType diceSetType);
 }

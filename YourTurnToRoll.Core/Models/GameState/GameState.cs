@@ -10,15 +10,6 @@ public class GameState : IGameState
     public List<ICharacter> Party { get; set; } = [];
     public IEncounter? CurrentEncounter { get; set; }
     public List<string> RollHistory { get; set; } = [];
+    public IDiceSet DiceSet { get; set; } = null!;
     public int ProgressionLevel { get; set; }
-
-    public void AddRoll(string rollResult)
-    {
-        throw new NotImplementedException();
-    }
-
-    public void AdvanceProgress()
-    {
-        throw new NotImplementedException();
-    }
 }

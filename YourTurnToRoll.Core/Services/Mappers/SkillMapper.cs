@@ -1,6 +1,6 @@
 using YourTurnToRoll.Core.Enums;
 
-namespace YourTurnToRoll.Core.Services;
+namespace YourTurnToRoll.Core.Services.Mappers;
 
 public static class SkillMapper
 {

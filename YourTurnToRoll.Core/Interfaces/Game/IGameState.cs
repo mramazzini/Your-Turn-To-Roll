@@ -9,7 +9,5 @@ public interface IGameState
     IEncounter? CurrentEncounter { get; set; }
     List<ICharacter> Party { get; set; }
     List<string> RollHistory { get; set; }
-    public int ProgressionLevel { get; set; }
-    public void AddRoll(string rollResult);
-    public void AdvanceProgress();
+    IDiceSet DiceSet { get; set; }
 }
